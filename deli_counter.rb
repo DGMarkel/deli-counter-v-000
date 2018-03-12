@@ -1,5 +1,7 @@
 def line(katz_deli)
+
   deli_counter = 0
+
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
@@ -9,4 +11,4 @@ def line(katz_deli)
     end
   end
 end
-end
+
