@@ -17,5 +17,8 @@ def take_a_number(katz_deli, new_customer)
 end
 
 def now_serving(katz_deli)
-  puts "Currently serving #{katz_deli.unshift()}"
+  if katz_deli.length >= 1
+    puts "Currently serving #{katz_deli.unshift()}"
+  else 
+    puts "There is nobody waiting to be served!"
 end
