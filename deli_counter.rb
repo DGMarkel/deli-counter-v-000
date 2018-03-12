@@ -4,10 +4,9 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     deli_line = ["The line is currently:"]
-    katz_deli.each do |customer|
+    katz_deli.each{|customer|
       customer = "#{katz_deli.index(customer) + 1}. #{customer}"
       deli_line.push(customer)}
-    end
     puts deli_line.join(" ")
   end
 end
