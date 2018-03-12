@@ -5,6 +5,7 @@ def line(katz_deli)
   else
     while deli_counter < katz_deli.length
       print "The line is currently: #{counter + 1}.: katz_deli[deli_counter]
-      counter += 1 
+      counter += 1
+    end
   end
 end
