@@ -8,7 +8,7 @@ def line(katz_deli)
     print "The line is currently: "
     while deli_counter < katz_deli.length
 
-      print "#{deli_counter + 1}. #{katz_deli[deli_counter]} "
+      puts "#{deli_counter + 1}. #{katz_deli[deli_counter]} "
       deli_counter += 1
     end
   end
