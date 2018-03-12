@@ -10,3 +10,8 @@ def line(katz_deli)
     puts deli_line.join(" ")
   end
 end
+
+def take_a_number(katz_deli, new_customer)
+  katz_deli << new_customer
+  puts "Welcome, #{new_customer}.  Your are number #{katz_deli.index(new_customer) + 1} in line."
+end
