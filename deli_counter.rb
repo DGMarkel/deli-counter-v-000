@@ -5,8 +5,8 @@ def line(katz_deli)
   else
     deli_line = ["The line is currently: "]
     katz_deli.each{|customer|
-      customer = "#{katz_deli.index(customer) + 1}. #{customer} "
+      customer = "#{katz_deli.index(customer) + 1}. #{customer}"
       deli_line.push(customer)}
-    puts deli_line.join()
+    puts deli_line.join(" ")
   end
 end
