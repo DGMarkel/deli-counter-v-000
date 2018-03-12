@@ -9,6 +9,5 @@ def line(katz_deli)
       print "The line is currently: #{counter + 1}.: katz_deli[deli_counter]
       counter += 1
     end
-
-
+  end
 end
